@@ -3,4 +3,4 @@
     rot rot + 100 mod
     dup 0= if swap 1 + else swap then ;
 : solve ( a b c ... -- res )
-    50 0 depth 2 - 0 do step loop . drop ;
+    50 0 depth 2 - 0 do step loop swap drop ;

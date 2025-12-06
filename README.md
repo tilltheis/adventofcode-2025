@@ -5,7 +5,7 @@ Developed using gforth 0.7.3.
 ## Running
 
 ```shell
-gforth --data-stack-size=32k 01_1.fs 01_input.fs -e 'input solve cr bye'
+gforth --data-stack-size=32k 01_1.fs 01_input.fs -e 'input solve . cr bye'
 ```
 
 You have to supply the puzzle input files yourself.
